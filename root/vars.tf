@@ -1,29 +1,23 @@
-variable "az_a" {
-  description = "Primary Availability Zone"
+variable "prod_vpc_cidr" {
+  description = "CIDR for the Prod VPC"
   type        = string
-  default     = "eu-central-1a"
+  default     = "10.100.0.0/16"
 }
 
-variable "az_b" {
-  description = "Secondary Availability Zone"
+variable "prod_vpc_name" {
+  description = "Name for the Prod VPC"
   type        = string
-  default     = "eu-central-1a"
+  default     = "VPC_Prod"
 }
 
-variable "vpc_cidr" {
-  description = "CIDR block for the VPC"
+variable "lab_vpc_cidr" {
+  description = "CIDR for the Lab VPC"
   type        = string
-  default     = "10.5.0.0/16"
+  default     = "192.168.0.0/16"
 }
 
-variable "public_subnet_cidr" {
-  description = "CIDR block for the public subnet"
+variable "lab_vpc_name" {
+  description = "Name for the Lab VPC"
   type        = string
-  default     = "10.5.1.0/24"
-}
-
-variable "private_subnet_cidr" {
-  description = "CIDR block for the private subnet"
-  type        = string
-  default     = "10.5.2.0/24"
+  default     = "VPC_Lab"
 }
