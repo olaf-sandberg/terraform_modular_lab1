@@ -7,11 +7,11 @@ resource "aws_vpc" "this" {
 }
 
 resource "aws_subnet" "priv" {
-  vpc_id = aws_vpc.this
+  vpc_id = aws_vpc.this.id
   cidr_block = var.module_subnet_private
 }
 
 resource "aws_subnet" "pub" {
-  vpc_id = aws_vpc.this
+  vpc_id = aws_vpc.this.id
   cidr_block = var.module_subnet_public
 }
