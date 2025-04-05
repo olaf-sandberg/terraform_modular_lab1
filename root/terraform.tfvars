@@ -8,4 +8,4 @@ prod_subnet_private = "10.50.1.0/24"
 prod_subnet_public = "10.50.100.0/24"
 
 lab_subnet_private = "192.168.0.0/25"
-lab_subnet_public = "192.168.0.129/25"
+lab_subnet_public = "192.168.0.128/25"
