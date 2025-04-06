@@ -19,3 +19,23 @@ variable "module_subnet_public_cidr" {
   type=string
   
 }
+
+variable "module_subnet_public_name" {
+  description = "Public name"
+  type=string
+}
+
+variable "module_subnet_private_name" {
+  description = "Public name"
+  type=string
+}
+
+variable "module_subnet_private_tftag" {
+  description = "Private TF tag"
+  type=string
+}
+
+variable "module_subnet_public_tftag" {
+    description = "PrivPublicate TF tag"
+  type=string
+}
