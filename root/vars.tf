@@ -18,24 +18,24 @@ variable "lab_vpc_name" {
   type        = string
 }
 
-variable "prod_subnet_public" {
+variable "prod_subnet_public_cidr" {
   description = "Public subnet for PROD VPC"
   type = string
 }
 
-variable "prod_subnet_private" {
+variable "prod_subnet_private_cidr" {
   description = "Private subnet for PROD VPC"
   type = string
   
 }
 
-variable "lab_subnet_public" {
-  description = "Public subnet for PROD VPC"
+variable "lab_subnet_public_cidr" {
+  description = "Public subnet for LAB VPC"
   type = string
 }
 
-variable "lab_subnet_private" {
-  description = "Private subnet for PROD VPC"
+variable "lab_subnet_private_cidr" {
+  description = "Private subnet for LAB VPC"
   type = string
   
 }

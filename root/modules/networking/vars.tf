@@ -8,12 +8,14 @@ variable "module_cidr_block" {
   type        = string
 }
 
-variable "module_subnet_private" {
+variable "module_subnet_private_cidr" {
+  description = "The CIDR for private subnet"
   type=string
   
 }
 
-variable "module_subnet_public" {
+variable "module_subnet_public_cidr" {
+  description = "The CIDR for public subnet"
   type=string
   
 }
