@@ -16,8 +16,8 @@ prod_subnet_private_name = "Prod Private Subnet"
 prod_subnet_private_tftag = "Yes"
 prod_subnet_public_tftag = "Yes"
 
-lab_subnet_public_name = "Yes"
-lab_subnet_private_name = "Yes"
+lab_subnet_public_name = "Lab Public Subnet"
+lab_subnet_private_name = "LAB Private Subnet"
 
 lab_subnet_private_tftag = "Yes"
 lab_subnet_public_tftag = "Yes"
