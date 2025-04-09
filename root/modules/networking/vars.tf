@@ -30,12 +30,7 @@ variable "module_subnet_private_name" {
   type=string
 }
 
-variable "module_subnet_private_tftag" {
-  description = "Private TF tag"
-  type=string
-}
-
-variable "module_subnet_public_tftag" {
-    description = "PrivPublicate TF tag"
-  type=string
+variable "common_tags" {
+  description = "Common tags applied to all resources"
+  type        = map(string)
 }
